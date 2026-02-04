@@ -5,4 +5,5 @@
 NUM1=455    
 NUM2=587
 
-echo "sum of (($NUM1+$NUM2))"
+SUM=$(($NUM1+$NUM2))
+echo "sum of :$SUM"
