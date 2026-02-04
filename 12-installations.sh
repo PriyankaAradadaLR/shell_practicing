@@ -32,4 +32,4 @@ if [ $? -ne 0 ] ; then
  exit 1
  else 
  echo "Installing mysql....Success"
- 
+ fi
