@@ -26,11 +26,12 @@ fi
  else 
  echo "Installing nginodejsnx....Success"
 fi 
-  echo "Installing MYSQL"
+
+ echo "Installing MYSQL"
  dnf install mysql -y
- if [ $? -ne 0 ] ; then 
-    echo " Installing mysql....Failure"
-    exit 1
- else 
-    echo "Installing mysql....Success"
- fi
+    if [ $? -ne 0 ] ; then 
+        echo " Installing mysql....Failure"
+        exit 1
+    else 
+        echo "Installing mysql....Success"
+    fi

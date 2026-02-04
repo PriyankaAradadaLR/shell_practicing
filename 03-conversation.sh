@@ -1,5 +1,6 @@
 #!/bin/bash
-
+PERSON1=Lohitha
+PERSON2=Rudra
 echo "$Lohitha : Hi Rudra bro  how are you?"
 echo "$Rudra : Hi Lohitha sister i am good what about you"
 echo "$Lohith : I am fine . what you are doin?"
