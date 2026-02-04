@@ -7,8 +7,8 @@
 
 NUM=$1
 
-if[$NUM -gt 30]; then
-    echo " given number: $NUM is grester than 30"
+if [ $NUM -gt 30 ]; then
+    echo " given number: $NUM is greater than 30"
  else 
      echo "given number :$NUM  is less than 30"
 fi
